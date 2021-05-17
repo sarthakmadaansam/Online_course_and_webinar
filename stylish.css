@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url("../images/onlinebackground.jpg");
+  color: white;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  width: 1500px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #808080;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.box:hover {
+  box-shadow: 0 15px 30px rgb(255, 255, 255);
+}
+
+.box .imgBx {
+  width: 150px;
+  flex: 0 0 150px;
+}
+.box .imgBx img {
+  max-width: 100%;
+}
+.box .content {
+  padding-left: 20px;
+}
+.box .content h2 {
+  margin: 0;
+  padding-left: 0;
+  color: #0bffff;
+}
+.box .content p {
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: justify;
+}
+.box .btn {
+  position: absolute;
+}
+.boxes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  width: 1500px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #808080;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.boxes:hover {
+  box-shadow: 0 15px 30px rgb(255, 255, 255);
+}
+
+.boxes .imgBx {
+  width: 150px;
+  flex: 0 0 150px;
+}
+.boxes .imgBx img {
+  max-width: 100%;
+}
+.boxes .content {
+  padding-left: 20px;
+}
+.boxes .content h2 {
+  margin: 0;
+  padding-left: 0;
+  color: #0bffff;
+}
+.boxes .content p {
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: justify;
+}
+.boxes .btn {
+  position: absolute;
+}
+
+.boxe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 140%);
+  width: 1500px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #808080;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.boxe:hover {
+  box-shadow: 0 15px 30px rgb(255, 255, 255);
+}
+
+.boxe .imgBx {
+  width: 150px;
+  flex: 0 0 150px;
+}
+.boxe .imgBx img {
+  max-width: 100%;
+}
+.boxe .content {
+  padding-left: 20px;
+}
+.boxe .content h2 {
+  margin: 0;
+  padding-left: 0;
+  color: #0bffff;
+}
+.boxe .content p {
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: justify;
+}
+.boxe .btn {
+  position: absolute;
+}

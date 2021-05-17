@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Register.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="logo">
+        <img
+          src="https://media.istockphoto.com/vectors/live-webinar-icon-flat-design-vector-id1250216608?k=6&m=1250216608&s=612x612&w=0&h=RkzAYNPxMP2TaUI_GGhO4UfjxbOgbN1aLM-_f8DN1GE="
+          alt="ss"
+        />
+      </div>
+      <div class="login_box">
+        <div class="login_heading">Register</div>
+        <form action="post" class="login_info">
+          <div class="login_name">
+            <div class="LineOne">Name</div>
+            <div class="LineTwo">
+              <input type="text" placeholder="Full Name" required />
+            </div>
+            <div class="login_phoneNumber">
+              <div class="LineOne">Mobile</div>
+              <div class="LineTwo">
+                <input
+                  type="number"
+                  placeholder="Mobile No."
+                  name=""
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="login_email">
+            <div class="LineOne">Email</div>
+            <div class="LineTwo">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                name=""
+                required
+              />
+            </div>
+          </div>
+          <div class="login_Password">
+            <div class="LineOne">Password</div>
+            <div class="LineTwo">
+              <input type="password" placeholder="New Password" required />
+            </div>
+          </div>
+          <button type="submit" onClick="register()">
+            Create your Account
+          </button>
+        </form>
+        <div class="login_data">Already have account?</div>
+        <button class="createButton" onClick="location.href = 'login.html'">
+          Sign-In
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

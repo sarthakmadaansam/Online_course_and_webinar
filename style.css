@@ -1,0 +1,138 @@
+body {
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    text-align: left;
+    width: 100%;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+.section-tittle h2 {
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 22px;
+}
+
+h2{
+  font-family: "Oswald",sans-serif;
+  color: #302072;
+  margin-top: 0px;
+  font-style: normal;
+}
+
+.justify-content-between {
+    justify-content: space-between!important;
+    display: flex;
+    margin-bottom: 50px;
+}
+.right-caption{
+  margin-top: 35px;
+  margin-right: 15px;
+}
+.material-icons{
+  display: block;
+  font-size: 30px;
+  padding: 10px;
+  margin: 2px;
+}
+.imp{
+  text-align: center;
+}
+.imp .button{
+  margin-top: 15px;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.programs{
+  text-align: center;
+}
+.button{
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.job-tittle{
+  padding-left: 15px;
+}
+.single-Program {
+    padding: 36px 30px;
+    transition: all .4s ease-out 0s;
+    border: 1px solid #E8E9FF;
+    box-shadow: 0px 15px 20px rgb(1 84 247 / 20%);
+    border-radius: 5px;
+}
+
+.support-company-area .support-location-img img {
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.job-items{
+  display: flex;
+}
+
+.timing{
+  padding: 0px;
+  margin: 0px;
+}
+.inImage{
+  display: none;
+}
+.icon1{
+  display: inline;
+  padding: 0 5px 0 0;
+  margin: 0;
+}
+.single-Program .job-items .job-tittle ul li {
+    display: inline-block;
+    font-size: 20px;
+    color: #808080;
+    line-height: 1.5;
+    list-style: none;
+}
+.single-Program .job-items .company-img img {
+    overflow: hidden;
+    float: left;
+    margin-right: 32px;
+    z-index: 999;
+}
+@media (max-width: 575px){
+  .justify-content-between{
+    display: block;
+  }
+  .right-caption{
+    margin-left: 15px;
+  }
+  .inImage{
+    display: block;
+    padding-left: 80px;
+  }
+  .right{
+    display: none;
+  }
+
+  .job-items{
+    display: block;
+  }
+}
